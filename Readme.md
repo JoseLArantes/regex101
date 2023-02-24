@@ -244,3 +244,10 @@
 "Notice that we can identify 2 groups of occurencies, \1, \2. The result on the example will be the same number removing the parenthesis."
 
 `sed -r 's/\(([0-9]{3})\)(.[0-9]{3}.[0-9]{4})/\1\2/g' text/regex30.txt`
+
+### Pattern example 31
+
+"Get only valid email addresses on a list of emails"
+
+grep -E '^([a-z0-9._-]+)@(.+)(\..+)' text/email.txt
+
