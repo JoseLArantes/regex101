@@ -1,3 +1,12 @@
+## Regex101
+
+This is a list of very basic regex examples.
+
+The source for most of the information here is the Udemy training [The Complete Regular Expressions(Regex) Course For Beginners](https://www.udemy.com/course/regular-expressions-mastery/)
+
+It's a good basic revision and consulting material.
+
+
 ### Pattern example 02 
 
 "Get pattern where there is only one char in the middle of foobar"
